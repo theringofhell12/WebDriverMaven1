@@ -25,6 +25,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("trainer@wayautomation");
 		driver.findElement(By.id("Passwd")).sendKeys("sdfsdr");
+		System.out.println("Hello");
 	}
 	
 	@AfterSuite
